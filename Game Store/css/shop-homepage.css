@@ -63,3 +63,10 @@ footer {
     height: auto;
     width: auto;
 }
+
+.logo img{
+    background: #3A6F9A;
+    vertical-align: middle;
+    max-height: 160px;
+    max-width: 160px;
+}
