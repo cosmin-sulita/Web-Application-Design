@@ -70,3 +70,14 @@ footer {
     max-height: 160px;
     max-width: 160px;
 }
+
+@media (max-width: 768px){
+    .form-control
+    {
+        padding-bottom: 5px;
+    }
+}
+.brand
+{
+    max-height: 25px;
+}

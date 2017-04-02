@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/shop-homepage.css" rel="stylesheet">
 
+    <!-- <link href="https://bootswatch.com/cyborg/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,7 +48,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style="float: none;">
                     <li>
                         <a href="E:\Facultate\GitHub\webApp\Game Store\startPage.html">
                         <span class="glyphicon glyphicon-home"> </span>
@@ -65,13 +67,35 @@
                         Contact
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                        <span class="glyphicon glyphicon-user"> </span>
-                        Login
-                        </a>
+                  
                     </li>
+                    <li class="login" style="float: right;">
+                        <form class="navbar-form navbar-left">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                </span>
+                                <input type="text" class="form-control input-sm" placeholder="Username" />
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-lock"></span>
+                                </span>
+                            <input type="password" class="form-control input-sm" placeholder="Password" />
+                            </div>
+                            <button type="submit" class="btn btn-success">Login</button>
+                        </form>
+                    </li>
+
+                    <li class="login" style="float: right;">
+                        <a href="#">
+                        <span class="glyphicon glyphicon-pencil"> </span>
+                        Register
+                        </a>
                 </ul>
+
+                
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -85,7 +109,10 @@
 
             <div class="col-md-3">
                 <p class="lead">
-                <img src="E:\Facultate\GitHub\webApp\Game Store\logo2.jpg">
+                <img src="E:\Facultate\GitHub\webApp\Game Store\logo2pngcrop.png" width="200px" style="padding-left: 50px">
+                </p>
+                <p style="padding-top: 0px">
+                <img src="E:\Facultate\GitHub\webApp\Game Store\writing.jpg" style="padding-left: 5px">
                 </p>
                 <div class="list-group">
                     <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-cd"> </span> Playstation Games</a>
